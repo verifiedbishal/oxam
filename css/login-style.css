@@ -1,0 +1,60 @@
+
+/*Login Page Style*/
+.login-wrapper{
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+}
+.login-wrapper__box{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.login-wrapper__box--head{
+    color: white;
+    background-color: orangered;
+    border-radius: 15px;
+    border-bottom: 1px solid orangered;
+    text-align: center;
+}
+.login-wrapper__box--head h1{
+    padding: 5px;
+    padding-top: 18px;
+    font-family: lato;
+    letter-spacing: 5px;
+}
+.login-wrapper__box--body{
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+.login-wrapper__box--body input{
+    padding: 1rem;
+    margin: 2rem;
+    outline: none;
+    border: 1px solid rgba(233, 233, 233, 0.904);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.login-wrapper__box--body input:hover,
+.login-wrapper__box--body input:active{
+    border: 1px solid rgba(255, 255, 255, 0.938);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.login-wrapper__box--body input[type=submit]{
+    margin-left: 38%;
+    background-color: rgba(0, 202, 17, 0.89);
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 2px 2px rgba(68, 68, 68, 0.2);
+    transition: all .2s;
+    border: 1px solid rgba(0, 202, 17, 0.89);
+}
+.login-wrapper__box--body input[type=submit]:hover{
+    opacity: 1;
+    transform: translateY(-2px);
+}
+.login-wrapper__box--body input[type=submit]:active{
+    transform: translateY(-1px);
+}
